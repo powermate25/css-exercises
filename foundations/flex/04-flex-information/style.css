@@ -7,10 +7,47 @@ img {
   height: 100px;
 }
 
+.main-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 52px;
+  flex-basis: auto;
+  
+}
+
+.items-box {
+  display: block;
+  width: 200px;
+}
+
+img {
+  display: flex;
+  flex-basis: auto;
+  margin: auto; 
+  justify-content: center;
+  align-items: center;
+}
+
+
 .title {
   font-size: 36px;
   font-weight: 900;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 32px;
 }
+
+.text {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+
+
 
 /* do not edit this footer */
 .footer {
