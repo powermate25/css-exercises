@@ -21,6 +21,10 @@
 
 .logo {
   justify-self: start;
+  display: grid;
+}
+.menu {
+  display: grid;
 }
 
 .header {
@@ -76,14 +80,12 @@
 }
 
 .nav {
-  
+display: grid; 
 background-color: #C50208;
 height: 30px;
 grid-column: 2 / 3;
 grid-row: 2 / 3;
 align-items: center;
-
-  
 }
 .nav ul {
   
@@ -91,9 +93,7 @@ align-items: center;
   grid-template-columns: repeat(3, 1fr);
 }
 
-ul {
-  align-self: center;
-}
+
 
 li {
   list-style: none;
