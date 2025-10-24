@@ -7,7 +7,7 @@
   text-align: center;
   display: grid;
   grid-template-columns: 1fr 4fr;
-  grid-template-rows: 1fr / 150px / 2fr / 1fr; 
+  /* grid-template-rows: 1fr / 150px / 2fr / 1fr;  */
   gap: 4px;
 }
 
@@ -91,6 +91,9 @@ align-items: center;
   grid-template-columns: repeat(3, 1fr);
 }
 
+ul {
+  align-self: center;
+}
 
 li {
   list-style: none;
